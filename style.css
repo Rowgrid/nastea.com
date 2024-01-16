@@ -8,9 +8,6 @@
 .all-content{
     background: white;
 }
-html::-webkit-scrollbar-track{
-    background: transparent;
-}
 html::-webkit-scrollbar-thumb{
     background: rgb(111, 178, 111);
     border-radius: 10px;
@@ -20,7 +17,7 @@ html::-webkit-scrollbar{
 
 }
 #navbar{
-    background-color:rgba(0, 103, 0, 0.742);
+    background-color:rgb(3,66,3);
     position: fixed;
     top: 0;
     left: 0;
@@ -34,8 +31,11 @@ html::-webkit-scrollbar{
     
     
 }
+.img{
+    width: 100px;
+}
 .nav-item .nav-link{
-    color: black;
+    color: #fff;
     margin-left: 10px;
     font-weight: bold;
     transition: 0.5s;
